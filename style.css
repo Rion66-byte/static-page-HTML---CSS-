@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+}
+.nav{
+    width:960px;
+    height: auto;
+    background-color: red;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+   
+}
+.nav ul li a {
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #478EC2;
+    background-color: #008000;
+}
+
+.nav ul li ul{
+    position: absolute;
+    background: #000;
+    left:-9999px;
+}
+.nav ul li:hover ul{
+    left:0px;
+}
+.nav ul li ul li{
+    width:200px;
+    border-bottom:1px solid #fff;
+}
+.nav{
+    background: black;
+    text-align: center;
+    position: relative;
+    overflow: visible;
+}
+.img{
+    background-repeat: no-repeat;
+    height: 558px;
+    margin: auto;
+    padding: 20px;
+}
+.img-content{
+    color: red;
+}
+
+.banner-cover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.banner-text{
+    padding:200px;
+    text-align: center;
+}
+.banner-text button{
+font: size 20px;
+font-weight:bold;
+text-transform: uppercase;
+padding: 20px;
+border: 0;
+background: #000;
+color:#fff;
+margin:0px 8px;
+transform: (50px, 100px);
+}
+.banner-text button:hover{
+    background-color: red;
+    transform: scale(.9);
+    transition: .1s;
+}
+.profile{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+u{
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+.about-me{
+
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+.bootom-footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+	margin-top:20px;
+}
+.bootom-footer a{
+    text-decoration: none;
+    margin:20px;
+    color: white;
+}
+.bootom-footer p{
+    color: white;
+    margin-top: 20px;
+}
+.bootom-footer a:hover{
+    text-decoration: underline;
+   
+    color:green;
+}
+footer p{
+	
+	font-family:arial;
+	font-weight:bold;
+	font-style:italic;
+} 
+
+
+
+
+
